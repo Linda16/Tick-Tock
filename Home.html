@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tick Tock | Home</title>
+</head>
+
+<script type="text/javascript" src="Jquery/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="Jquery/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+
+$('#Slider').cycle({
+	
+	fx:        'scrollHorz',
+	next:      '#Next',
+	prev:      '#Prev',
+	timeout:   3000,
+	pause:     1
+
+})
+</script>
+
+<style type="text/css">
+
+.Body {
+	height: 1080px;
+	width: 1920px;
+}
+.Body #MenuBar1 li a {
+	font-weight: bold;
+}
+#Title {
+	height: 90px;
+	width: 1024px;
+	margin-left: 467.3px;
+	margin-right: 467.3px;
+	background-color: #06C;
+	margin-top: -10px;
+	background-image: url(Images/header-BlueSky.jpg);
+}
+#Background {
+	background-color: #FFF;
+	width: 1024px;
+	height: 760px;
+	margin-right: 467.2px;
+	margin-left: 467.2px;
+	display: block;
+	margin-top: 52px;
+}
+#apDiv2 {
+	background-color: #09F;
+}
+</style>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 145px;
+	height: 68px;
+	z-index: 1;
+	left: 492px;
+	top: 8px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 247px;
+	height: 26px;
+	z-index: 2;
+	left: 1276px;
+	top: 55px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 180px;
+	height: 56px;
+	z-index: 4;
+	left: 493px;
+	top: 35px;
+	color: #D5D1D1;
+	margin-left: 880px;
+	margin-top: -20px;
+}
+#Newsimages {
+	width:1024px;
+	height: 500px;
+	position: relative;
+	margin-top: -18px;
+}
+#Slider {
+	height: 500px;
+	width: 1024px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -18px;
+}
+#Next {
+	text-align: center;
+	line-height:50px;
+	color: #FFF;
+	background-color: #FF8000;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top:175px;
+	right:0;
+	z-index: 99;
+	cursor: pointer;
+	opacity: 0;
+}
+#Prev {
+	text-align: center;
+	line-height:50px;
+	color: #FFF;
+	background-color: #FF8000;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top:175px;
+	left:0;
+	z-index: 99;
+	cursor: pointer;
+	opacity: 0;
+}
+#Newsimages:hover #Next {
+	opacity: 1;
+	transition:all .5s ease-out;
+	-webkit-transition:all .5s ease-out;
+}
+#Newsimages:hover #Prev {
+	opacity: 1;
+	transition:all .5s ease-out;
+	-webkit-transition:all .5s ease-out;
+}
+.info {
+	width: 1024px;
+	height: 80px;
+	background-color: #FF8040;
+	position:absolute;
+	top:420px;
+	z-index:99;
+	opacity: 0;
+}
+#Newsimages:hover .info {
+	opacity: 1;
+	transition:all .5s ease-out;
+	-webkit-transition:all .5s ease-out;
+}
+.info h2 {
+	font-family:San-serif;
+	font-weight:bold;
+	color:#FFF;
+	padding: 0 20px;
+	margin-top:15px;
+}
+.info p {
+	font-family:San-serif;
+	font-weight:lighter;
+	color:#FFF;
+	padding: 0 20px;
+	margin-top:-15px;
+}
+.Description {
+	height: 220px;
+	width: 954px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 500px;
+	z-index: 99;
+	margin-left: 35px;
+	font-weight: bold;
+}
+.Description p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	margin: 15px;
+	text-align: justify;
+}
+.Description h1 {
+	margin-left: 15px;
+}
+#datetime {
+	width: 170px;
+	margin-top: -20px;
+	margin-left: 18px;
+	font-weight: normal;
+	color: #CCC;
+}
+#footer {
+	height: 205px;
+	width: 1024px;
+	top: 902px;
+	position: absolute;
+	z-index: 99;
+	background-color: #06F;
+	left: 475px;
+}
+.Contact {
+	margin-left: 40px;
+	height: 200px;
+	width: 200px;
+}
+.Navigation {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-top: -215px;
+	margin-left: 750px;
+}
+.Navigation p a {
+	color: #000;
+}
+#apDiv2 {
+	position:absolute;
+	width:640px;
+	height:51px;
+	z-index:100;
+	left: 859px;
+	top: 88px;
+}
+#apDiv5 p a {
+	color: #D6D6D6;
+}
+#apDiv3 {
+	position:absolute;
+	width:98px;
+	height:62px;
+	z-index:101;
+	margin-left: 700px;
+	margin-top: 30px;
+	top: -12px;
+	left: 491px;
+}
+#apDiv6 {
+	position:absolute;
+	width:54px;
+	height:43px;
+	z-index:102;
+	left: 1200px;
+	top: 3px;
+}
+</style>
+
+<body bgcolor="#D6D6D6" background="Images/Logo - KM 1.png">
+<div class="Body">
+  <div id="Title"> 
+    <div id="apDiv1"> 
+    <img src="Images/Logo - Tick Tock.PNG" width="145" height="68" alt="Logo" />
+    </div>
+    <div id ="apDiv5">
+    <p><a href="Login/Register.html">Login/Register</a></p>
+    </div><!--apDiv5-->
+    <div id="apDiv3"> <a href="Checkout.html"><img src="Images/shopping basket.png" width="85" height="69" /></a>
+    </div>
+    <div id="apDiv4">
+    <form name="mailform" id="mailform" action="/search/?no_cache=1" enctype="multipart/form-data" method="post" target="_top">
+        <input name="tx_indexedsearch[sword]" id="mailformsword" onfocus="if(this.value == 'Search the site'){this.value=''};" onblur="if(this.value ==''){this.value='Search the site';}" type="text" size="20" value="Search the site" />
+        <input name="mailformsubmit" class="csc-mailform-submit" id="mailformsubmit" type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+  
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+<li><a href="Checkout.html">Checkout</a></li>
+  </ul>
+<div id="apDiv2"></div>
+  
+<div id="Background">
+  <p>&nbsp;</p>
+<div id="Newsimages">
+    
+    <div id="Next">&rang;</div><!--end Next-->
+     <div id="Prev">&lang;</div><!--end Prev-->
+     
+    <div id="Slider">
+       <div class="Items">
+        <div class="Img">
+         <img src="Images/MEC_TheHeartHospital_Sept13-034_618_390 copy.jpg" />
+        </div><!--end Img--> 
+       <div class="info">
+        <h2>New Android Wear-Easier Navigation</h2>
+         <p>Find out more inforation <a href="Checkout.html">Read more</a></p>
+       </div><!--end info-->
+      </div><!--end Items--> 
+      
+      <div class="Items">
+       <div class="Img">
+        <img src="Images/109165828_312151c copy.jpg" />
+       </div><!--end Img--> 
+      <div class="info">
+       <h2>New Android Wear-New Modes</h2>
+        <p>Find out more inforation <a href="Checkout.html">Read more</a></p>
+       </div><!--end info-->
+      </div><!--end Items--> 
+      
+      <div class="Items">
+       <div class="Img">
+        <img src="Images/DSCF0183_618_390 copy.jpg" />
+       </div><!--end Img--> 
+      <div class="info">
+       <h2>New Android Wear-App Improvements</h2>
+        <p>Find out more inforation <a href="Checkout.html">Read more</a></p>
+       </div><!--end info-->
+      </div><!--end Items-->  
+  </div><!--end Newsimages-->
+    
+    <div class="Description">
+    <h1> Welcome to Tick Tock</h1>
+    <div id="datetime">
+      <!-- #BeginDate format:fAm3m -->Tuesday 04/21/2015  12:36<!-- #EndDate -->
+    </div><!--end datetiem-->
+    <p>Watch Face API Now Available for Android Wear </p>
+    <p>We&rsquo;re pleased to announce that the official Android Wear <a href="http://developer.android.com/training/wearables/watch-faces/index.html?utm_campaign=watchface-1214&amp;utm_source=dac&amp;utm_medium=blog">Watch   Face API</a> is now available for developers. <a href="http://googleblog.blogspot.com/2014/12/android-dress-code-wear-what-you-want.html">Watch   faces</a> give users even more ways to express their personal style, while   creating an opportunity for developers to customize the most prominent UI   feature of the watches. Watch faces have been the most requested feature from   users and developers alike, and we can&rsquo;t wait to see what you build for   them.</p>
+    <!--[Interactive video]  -->
+    </div><!--end Description -->
+</div><!--END Background-->
+
+<div id="footer">
+ <div class="Contact">
+ <p>CONTACT<br />
+   _________________________
+ </p>
+ <p>8 Baden Place, Crosby Row<br />
+   London<br />
+   SE1 1YW</p>
+ <p>Tel: 020 1234 5678<br />
+   Fax:020 2345 6789</p>
+ </div>
+ <!--end class-->
+ 
+ <div class="Navigation">
+ <p>NAVIGATION<br/>
+   _________________________</p>
+ <p><a href="Home.html">Home</a></p>
+ <p><a href="Contact.html">Contact</a></p>
+ <p><a href="Checkout.html">Checkout</a></p>
+ </div>
+ <!--end navigation-->
+</div><!--end footer-->
+</div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+</body>
+</html>
